@@ -6,5 +6,5 @@ read NOTAPARE
 echo 'Introduce nota BD : ' 
 read NOTABD
 suma=$[ $NOTAISO + $NOTAPARE + $NOTABD ]
-let media=suma/3;
+media=$(echo " scale=2; $suma/3 " | bc -l)
 echo "La media es $media"

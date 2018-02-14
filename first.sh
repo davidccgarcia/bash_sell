@@ -1,2 +1,2 @@
 #!/bin/bash
-echo Hola Mundo
+clear; echo Hola Mundo

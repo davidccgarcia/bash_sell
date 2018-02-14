@@ -1,6 +1,7 @@
 #!/bin/bash
 # Edad para votar
-edad=17
+echo "Introduce tu edad: "
+read edad
 
 if [ $edad -lt 18 ]; then
     echo "No puedes votar"

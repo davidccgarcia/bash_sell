@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+
+echo "Hola Mundo";
+
+var_dump(shell_exec("git add $input"));
